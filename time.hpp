@@ -13,6 +13,6 @@ namespace utils {
             duration_cast<duration<double>>(end - start).count();
     return elapsed_secondes;
 }
-  inline time_point<steady_clock> now() { return steady_clock::now();}
+  inline time_point<steady_clock> now() { return steady_clock::now(); }
 }
 #endif  // UTILS_TIME_HPP
